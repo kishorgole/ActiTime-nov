@@ -11,7 +11,7 @@ public class ActiDemo {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://localhost/login.do");
-		
+		System.out.println("hi");
 		
 		
 	}
