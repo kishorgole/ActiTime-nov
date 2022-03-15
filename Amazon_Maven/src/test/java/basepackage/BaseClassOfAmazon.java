@@ -19,7 +19,7 @@ public class BaseClassOfAmazon {
 		driver.get("https://www.amazon.in");
 		return driver;
 	}
-	public static WebDriver IEBrowser() {
+	public static WebDriver operaBrowser() {
 		System.setProperty("webdriver.opera.driver", "E:\\operadriver_win64\\operadriver_win64\\operadriver.exe");
 		WebDriver driver=new OperaDriver();
 		driver.get("https://www.amazon.in");
