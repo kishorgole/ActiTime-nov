@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.ActiTime123">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="task"/>
+          <include name="utilityclassmethod"/>
+        </methods>
+      </class> <!-- test.ActiTime123 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test123(failed)">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="test.ActiTime123">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="closeBrowser"/>
+          <include name="report"/>
+          <include name="launchBrowser"/>
+          <include name="applicationHeaderpage"/>
+          <include name="task"/>
+          <include name="user"/>
+          <include name="utilityclassmethod"/>
+        </methods>
+      </class> <!-- test.ActiTime123 -->
+    </classes>
+  </test> <!-- Test123(failed) -->
+</suite> <!-- Failed suite [Suite] -->

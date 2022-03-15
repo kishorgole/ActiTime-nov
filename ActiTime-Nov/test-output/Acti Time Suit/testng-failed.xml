@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Acti Time Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrometest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="test.ActiTime123">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="clearPOMObject"/>
+          <include name="ApplicationHeaderpage"/>
+          <include name="beforeclass"/>
+          <include name="beforemethod"/>
+          <include name="beforetest1"/>
+        </methods>
+      </class> <!-- test.ActiTime123 -->
+    </classes>
+  </test> <!-- Chrometest(failed) -->
+  <test thread-count="5" name="Firefoxtest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="test.ActiTime123">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="clearPOMObject"/>
+          <include name="ApplicationHeaderpage"/>
+          <include name="beforeclass"/>
+          <include name="beforemethod"/>
+          <include name="beforetest1"/>
+        </methods>
+      </class> <!-- test.ActiTime123 -->
+    </classes>
+  </test> <!-- Firefoxtest(failed) -->
+</suite> <!-- Failed suite [Acti Time Suit] -->

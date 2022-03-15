@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name ="browser" value = "chrome"/>
+    <classes>
+      <class name="test.ActiTime123"/>
+       <class name="test.TestClass"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test123">
+  <parameter name ="browser" value = "opera"/>
+    <classes>
+      <class name="test.ActiTime123"/>
+      <class name="test.TestClass"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
