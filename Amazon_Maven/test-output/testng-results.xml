@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-07T23:51:47 IST" name="AmazonSuite" finished-at="2022-03-07T23:52:30 IST" duration-ms="42520">
+    <groups>
+    </groups>
+    <test started-at="2022-03-07T23:51:47 IST" name="Test" finished-at="2022-03-07T23:52:30 IST" duration-ms="42520">
+      <class name="test_amazon.Amazon_TestNG">
+        <test-method is-config="true" signature="launchchromebrowser(java.lang.String)[pri:0, instance:test_amazon.Amazon_TestNG@636be97c]" started-at="2022-03-07T23:51:47 IST" name="launchchromebrowser" finished-at="2022-03-07T23:52:05 IST" duration-ms="17931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchchromebrowser -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test_amazon.Amazon_TestNG@636be97c]" started-at="2022-03-07T23:52:05 IST" name="beforeclass" finished-at="2022-03-07T23:52:06 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="startUP()[pri:0, instance:test_amazon.Amazon_TestNG@636be97c]" started-at="2022-03-07T23:52:06 IST" name="startUP" finished-at="2022-03-07T23:52:06 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUP -->
+        <test-method signature="accountdemo()[pri:0, instance:test_amazon.Amazon_TestNG@636be97c]" started-at="2022-03-07T23:52:06 IST" name="accountdemo" finished-at="2022-03-07T23:52:21 IST" duration-ms="15699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountdemo -->
+        <test-method is-config="true" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:test_amazon.Amazon_TestNG@636be97c]" started-at="2022-03-07T23:52:21 IST" name="takescreenshot" finished-at="2022-03-07T23:52:25 IST" duration-ms="4137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountdemo status=SUCCESS method=Amazon_TestNG.accountdemo()[pri:0, instance:test_amazon.Amazon_TestNG@636be97c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:test_amazon.Amazon_TestNG@636be97c]" started-at="2022-03-07T23:52:25 IST" name="stop" finished-at="2022-03-07T23:52:30 IST" duration-ms="4507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- test_amazon.Amazon_TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- AmazonSuite -->
+</testng-results>

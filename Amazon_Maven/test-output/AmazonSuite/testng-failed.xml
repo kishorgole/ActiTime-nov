@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test_amazon.Amazon_TestNG">
+        <methods>
+          <include name="accountdemo"/>
+          <include name="takescreenshot"/>
+          <include name="stop"/>
+          <include name="beforeclass"/>
+          <include name="launchchromebrowser"/>
+          <include name="startUP"/>
+        </methods>
+      </class> <!-- test_amazon.Amazon_TestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AmazonSuite] -->
