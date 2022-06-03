@@ -12,6 +12,8 @@ public class ActiDemo {
 		
 		driver.get("http://localhost/login.do");
 		System.out.println("hi");
+		System.out.println("hellow how are u buddy");
+		
 		
 		
 	}
